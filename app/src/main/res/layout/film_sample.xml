@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+<androidx.cardview.widget.CardView
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    app:cardCornerRadius="10dp"
+    android:background="@drawable/smaple_tb_bg"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/SHADOW"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/R1"
+
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@color/BROWN"
+                android:scaleType="centerCrop"
+                android:id="@+id/filmSimpleImg"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/actor"
+                android:text="2022"
+                android:id="@+id/filmDate"
+                android:textColor="@color/ITA"
+                android:textSize="18sp"
+                android:layout_alignBottom="@id/filmSimpleImg"
+                android:layout_marginBottom="20dp"
+
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="HINDI DUBBED"
+                    android:padding="5dp"
+                    android:background="@drawable/corner"
+                    android:fontFamily="@font/actor"
+                    android:textColor="@color/black"
+                    android:id="@+id/filmHindiDTB"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/purple_200"
+            android:fontFamily="@font/actor"
+            android:gravity="center"
+            android:text="Vikram"
+            android:id="@+id/FilmNameTb"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            tools:ignore="TextContrastCheck" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

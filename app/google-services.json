@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1089526713906",
+    "project_id": "movieserver-c6c65",
+    "storage_bucket": "movieserver-c6c65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089526713906:android:74b0d3f32378ee3024362b",
+        "android_client_info": {
+          "package_name": "com.god.moviesdownloder_god"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089526713906-ic76ka547nqb2kpt715ttnuvij54dubn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEVOzwCi6BNjdkZOj1SaYJJpo0n6BK56E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089526713906-ic76ka547nqb2kpt715ttnuvij54dubn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
